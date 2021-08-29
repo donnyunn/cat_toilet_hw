@@ -3,4 +3,5 @@
   (lib (name ali_Connector)(type Legacy)(uri ${KIPRJMOD}/lib/ali_Connector/ali_Connector.lib)(options "")(descr ""))
   (lib (name cat_tracker-rescue)(type Legacy)(uri C:/Users/donny/work/dulab/cat_toilet/hwspace/cat_tracker/cat_tracker-rescue.lib)(options "")(descr ""))
   (lib (name P_FET)(type Legacy)(uri ${KIPRJMOD}/lib/add_FET/P_FET.lib)(options "")(descr ""))
+  (lib (name cat_toilet-rescue)(type Legacy)(uri ${KIPRJMOD}/cat_toilet-rescue.lib)(options "")(descr ""))
 )

@@ -104,11 +104,11 @@ X VBUS B9 200 -150 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_+3.3V-power
+# cat_toilet-rescue_+3.3V-power-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
+DEF cat_toilet-rescue_+3.3V-power-cat_tracker-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "cat_tracker-rescue_+3.3V-power" 0 140 50 H V C CNN
+F1 "cat_toilet-rescue_+3.3V-power-cat_tracker-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -119,11 +119,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_C-Device
+# cat_toilet-rescue_C-Device-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_C-Device C 0 10 N Y 1 F N
+DEF cat_toilet-rescue_C-Device-cat_tracker-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "cat_tracker-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "cat_toilet-rescue_C-Device-cat_tracker-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -137,11 +137,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Conn_01x02-Connector_Generic
+# cat_toilet-rescue_Conn_01x02-Connector_Generic-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+DEF cat_toilet-rescue_Conn_01x02-Connector_Generic-cat_tracker-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
+F1 "cat_toilet-rescue_Conn_01x02-Connector_Generic-cat_tracker-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -156,11 +156,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Conn_01x04-Connector_Generic
+# cat_toilet-rescue_Conn_01x04-Connector_Generic-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_Conn_01x04-Connector_Generic J 0 40 Y N 1 F N
+DEF cat_toilet-rescue_Conn_01x04-Connector_Generic-cat_tracker-rescue J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "cat_tracker-rescue_Conn_01x04-Connector_Generic" 0 -300 50 H V C CNN
+F1 "cat_toilet-rescue_Conn_01x04-Connector_Generic-cat_tracker-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -179,11 +179,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_D_Schottky-Device
+# cat_toilet-rescue_D_Schottky-Device-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF cat_toilet-rescue_D_Schottky-Device-cat_tracker-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "cat_toilet-rescue_D_Schottky-Device-cat_tracker-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -201,11 +201,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_ESP32-WROOM-32D-RF_Module
+# cat_toilet-rescue_ESP32-WROOM-32D-RF_Module-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_ESP32-WROOM-32D-RF_Module U 0 20 Y Y 1 F N
+DEF cat_toilet-rescue_ESP32-WROOM-32D-RF_Module-cat_tracker-rescue U 0 20 Y Y 1 F N
 F0 "U" -500 1350 50 H V L CNN
-F1 "cat_tracker-rescue_ESP32-WROOM-32D-RF_Module" 50 1350 50 H V L CNN
+F1 "cat_toilet-rescue_ESP32-WROOM-32D-RF_Module-cat_tracker-rescue" 50 1350 50 H V L CNN
 F2 "RF_Module:ESP32-WROOM-32" 0 -1500 50 H I C CNN
 F3 "" -300 50 50 H I C CNN
 $FPLIST
@@ -255,11 +255,11 @@ X IO33 9 600 -900 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_Earth-power
+# cat_toilet-rescue_Earth-power-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_Earth-power #PWR 0 0 Y Y 1 F P
+DEF cat_toilet-rescue_Earth-power-cat_tracker-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "cat_tracker-rescue_Earth-power" 0 -150 50 H I C CNN
+F1 "cat_toilet-rescue_Earth-power-cat_tracker-rescue" 0 -150 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -271,11 +271,11 @@ X Earth 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_LED-Device
+# cat_toilet-rescue_LED-Device-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_LED-Device D 0 40 N N 1 F N
+DEF cat_toilet-rescue_LED-Device-cat_tracker-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "cat_tracker-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "cat_toilet-rescue_LED-Device-cat_tracker-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -294,11 +294,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_MCP73831-2-OT-Battery_Management
+# cat_toilet-rescue_MCP73831-2-OT-Battery_Management-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_MCP73831-2-OT-Battery_Management U 0 40 Y Y 1 F N
+DEF cat_toilet-rescue_MCP73831-2-OT-Battery_Management-cat_tracker-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V L CNN
-F1 "cat_tracker-rescue_MCP73831-2-OT-Battery_Management" 50 250 50 H V L CNN
+F1 "cat_toilet-rescue_MCP73831-2-OT-Battery_Management-cat_tracker-rescue" 50 250 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-5" 50 -250 50 H I L CIN
 F3 "" -150 -50 50 H I C CNN
 $FPLIST
@@ -314,11 +314,11 @@ X PROG 5 -400 -100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_R-Device
+# cat_toilet-rescue_R-Device-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_R-Device R 0 0 N Y 1 F N
+DEF cat_toilet-rescue_R-Device-cat_tracker-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "cat_tracker-rescue_R-Device" 0 0 50 V V C CNN
+F1 "cat_toilet-rescue_R-Device-cat_tracker-rescue" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -331,11 +331,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# cat_tracker-rescue_SW_Push-Switch
+# cat_toilet-rescue_SW_Push-Switch-cat_tracker-rescue
 #
-DEF cat_tracker-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF cat_toilet-rescue_SW_Push-Switch-cat_tracker-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "cat_tracker-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "cat_toilet-rescue_SW_Push-Switch-cat_tracker-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW

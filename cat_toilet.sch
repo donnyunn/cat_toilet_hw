@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L cat_tracker-rescue:ESP32-WROOM-32D-RF_Module U4
+L cat_toilet-rescue:ESP32-WROOM-32D-RF_Module-cat_tracker-rescue U4
 U 1 1 61108DF0
 P 5550 4500
 F 0 "U4" H 5100 5900 50  0000 C CNN
@@ -33,11 +33,12 @@ F 0 "U2" H 1758 2015 50  0000 C CNN
 F 1 "USB_CType_6Pin" H 1758 1924 50  0000 C CNN
 F 2 "ali_Connector:USB_CType_6Pin" H 2050 1500 50  0001 C CNN
 F 3 "" H 2050 1500 50  0001 C CNN
+F 4 "CType Connector" H 2050 1500 50  0001 C CNN "MPN"
 	1    2050 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:MCP73831-2-OT-Battery_Management U3
+L cat_toilet-rescue:MCP73831-2-OT-Battery_Management-cat_tracker-rescue U3
 U 1 1 6110E339
 P 4800 1500
 F 0 "U3" H 4550 1750 50  0000 C CNN
@@ -48,29 +49,31 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" H 4650 1450 
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:D_Schottky-Device D1
+L cat_toilet-rescue:D_Schottky-Device-cat_tracker-rescue D1
 U 1 1 611100B7
 P 4550 1000
 F 0 "D1" H 4550 783 50  0000 C CNN
-F 1 "SK24/SMA" H 4550 874 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 4550 1000 50  0001 C CNN
-F 3 "~" H 4550 1000 50  0001 C CNN
+F 1 "SK24/SMB" H 4550 874 50  0000 C CNN
+F 2 "Diode_SMD:D_SMB_Handsoldering" H 4550 1000 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SK24-TP?qs=ekjJs1tcck0x%252BNZEMIWSMw%3D%3D" H 4550 1000 50  0001 C CNN
+F 4 "SK24-TP" H 4550 1000 50  0001 C CNN "MPN"
 	1    4550 1000
 	-1   0    0    1   
 $EndComp
 $Comp
-L cat_tracker-rescue:C-Device C1
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C1
 U 1 1 6111090E
 P 2700 1500
 F 0 "C1" H 2815 1546 50  0000 L CNN
 F 1 "10u" H 2815 1455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2738 1350 50  0001 C CNN
-F 3 "~" H 2700 1500 50  0001 C CNN
+F 3 "https://www.mouser.com/ProductDetail/AVX/TPCL106K010R4000?qs=sGAEpiMZZMukHu%252BjC5l7YbWrvsR5dLklJIeP7A7npOo%3D" H 2700 1500 50  0001 C CNN
+F 4 "TPCL106K010R4000" H 2700 1500 50  0001 C CNN "MPN"
 	1    2700 1500
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:C-Device C2
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C2
 U 1 1 61112178
 P 3150 1500
 F 0 "C2" H 3265 1546 50  0000 L CNN
@@ -87,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 1650 2250 1650
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0101
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0101
 U 1 1 61112600
 P 2250 1750
 F 0 "#PWR0101" H 2250 1500 50  0001 C CNN
@@ -98,7 +101,7 @@ F 3 "~" H 2250 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0102
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0102
 U 1 1 6111274F
 P 2250 1250
 F 0 "#PWR0102" H 2250 1000 50  0001 C CNN
@@ -109,7 +112,7 @@ F 3 "~" H 2250 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0103
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0103
 U 1 1 61112BC4
 P 2700 1650
 F 0 "#PWR0103" H 2700 1400 50  0001 C CNN
@@ -120,7 +123,7 @@ F 3 "~" H 2700 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0104
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0104
 U 1 1 611130BC
 P 3150 1650
 F 0 "#PWR0104" H 3150 1400 50  0001 C CNN
@@ -139,7 +142,7 @@ Wire Wire Line
 Text GLabel 3150 1350 1    50   Input ~ 0
 VBUS
 $Comp
-L cat_tracker-rescue:LED-Device D2
+L cat_toilet-rescue:LED-Device-cat_tracker-rescue D2
 U 1 1 61114FC1
 P 5050 1000
 F 0 "D2" H 5043 745 50  0000 C CNN
@@ -150,7 +153,7 @@ F 3 "~" H 5050 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R1
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R1
 U 1 1 61115A90
 P 5400 1150
 F 0 "R1" V 5300 1100 50  0000 L CNN
@@ -161,7 +164,7 @@ F 3 "~" H 5400 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R3
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R3
 U 1 1 6111654E
 P 4300 1750
 F 0 "R3" V 4200 1700 50  0000 L CNN
@@ -172,7 +175,7 @@ F 3 "~" H 4300 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:C-Device C5
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C5
 U 1 1 61116BD2
 P 5650 1550
 F 0 "C5" H 5765 1596 50  0000 L CNN
@@ -183,7 +186,7 @@ F 3 "~" H 5650 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0105
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0105
 U 1 1 611173E7
 P 4300 1900
 F 0 "#PWR0105" H 4300 1650 50  0001 C CNN
@@ -194,7 +197,7 @@ F 3 "~" H 4300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0106
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0106
 U 1 1 6111791D
 P 4800 1800
 F 0 "#PWR0106" H 4800 1550 50  0001 C CNN
@@ -222,7 +225,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1400 5650 1400
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0107
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0107
 U 1 1 61118BDB
 P 5650 1700
 F 0 "#PWR0107" H 5650 1450 50  0001 C CNN
@@ -235,7 +238,7 @@ $EndComp
 Wire Wire Line
 	4300 1600 4400 1600
 $Comp
-L cat_tracker-rescue:Conn_01x02-Connector_Generic J1
+L cat_toilet-rescue:Conn_01x02-Connector_Generic-cat_tracker-rescue J1
 U 1 1 6111965B
 P 6300 1400
 F 0 "J1" H 6380 1392 50  0000 L CNN
@@ -246,7 +249,7 @@ F 3 "~" H 6300 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0108
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0108
 U 1 1 61119EBD
 P 6000 1600
 F 0 "#PWR0108" H 6000 1350 50  0001 C CNN
@@ -282,7 +285,7 @@ F 4 "NCP187AMT330TAG" H 8050 1450 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:C-Device C3
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C3
 U 1 1 6111DBE3
 P 7300 1500
 F 0 "C3" H 7415 1546 50  0000 L CNN
@@ -310,7 +313,7 @@ Connection ~ 7650 1350
 Wire Wire Line
 	7650 1350 7750 1350
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0109
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0109
 U 1 1 6111EF7B
 P 7300 1650
 F 0 "#PWR0109" H 7300 1400 50  0001 C CNN
@@ -321,7 +324,7 @@ F 3 "~" H 7300 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0110
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0110
 U 1 1 6111F802
 P 7650 1650
 F 0 "#PWR0110" H 7650 1400 50  0001 C CNN
@@ -336,7 +339,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 1550 7750 1550
 $Comp
-L cat_tracker-rescue:R-Device R2
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R2
 U 1 1 61120B43
 P 8650 1500
 F 0 "R2" V 8550 1450 50  0000 L CNN
@@ -356,7 +359,7 @@ Wire Wire Line
 Wire Wire Line
 	8450 1550 8350 1550
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR0111
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR0111
 U 1 1 611226CB
 P 8950 1350
 F 0 "#PWR0111" H 8950 1200 50  0001 C CNN
@@ -367,7 +370,7 @@ F 3 "" H 8950 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:C-Device C4
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C4
 U 1 1 61123213
 P 8950 1500
 F 0 "C4" H 9065 1546 50  0000 L CNN
@@ -382,7 +385,7 @@ Wire Wire Line
 Connection ~ 8950 1350
 Connection ~ 8650 1350
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0112
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0112
 U 1 1 611243DC
 P 8950 1650
 F 0 "#PWR0112" H 8950 1400 50  0001 C CNN
@@ -393,7 +396,7 @@ F 3 "~" H 8950 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR0113
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR0113
 U 1 1 61124907
 P 5550 3100
 F 0 "#PWR0113" H 5550 2950 50  0001 C CNN
@@ -406,7 +409,7 @@ $EndComp
 Text GLabel 4950 3300 0    50   Input ~ 0
 EN
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0114
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0114
 U 1 1 61126409
 P 5550 5900
 F 0 "#PWR0114" H 5550 5650 50  0001 C CNN
@@ -421,7 +424,7 @@ NoConn ~ 6150 3900
 NoConn ~ 6150 4200
 NoConn ~ 6150 3700
 $Comp
-L cat_tracker-rescue:SW_Push-Switch SW1
+L cat_toilet-rescue:SW_Push-Switch-cat_tracker-rescue SW1
 U 1 1 6115F88F
 P 1600 3300
 F 0 "SW1" H 1600 3585 50  0000 C CNN
@@ -432,7 +435,7 @@ F 3 "~" H 1600 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR0128
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR0128
 U 1 1 6115FA35
 P 1300 3200
 F 0 "#PWR0128" H 1300 3050 50  0001 C CNN
@@ -447,7 +450,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 3300 1400 3300
 $Comp
-L cat_tracker-rescue:Conn_01x04-Connector_Generic J2
+L cat_toilet-rescue:Conn_01x04-Connector_Generic-cat_tracker-rescue J2
 U 1 1 611619C1
 P 1600 4450
 F 0 "J2" H 1518 4767 50  0000 C CNN
@@ -458,7 +461,7 @@ F 3 "~" H 1600 4450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR0129
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR0129
 U 1 1 61162905
 P 1800 4350
 F 0 "#PWR0129" H 1800 4200 50  0001 C CNN
@@ -469,7 +472,7 @@ F 3 "" H 1800 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0130
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0130
 U 1 1 611632DD
 P 1800 4450
 F 0 "#PWR0130" H 1800 4200 50  0001 C CNN
@@ -488,7 +491,7 @@ RX
 Text GLabel 6150 3400 2    50   Input ~ 0
 TX
 $Comp
-L cat_tracker-rescue:C-Device C6
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C6
 U 1 1 6116473C
 P 1800 3450
 F 0 "C6" H 1915 3496 50  0000 L CNN
@@ -499,7 +502,7 @@ F 3 "~" H 1800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R4
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R4
 U 1 1 61164D5E
 P 1950 3300
 F 0 "R4" V 1850 3250 50  0000 L CNN
@@ -511,7 +514,7 @@ F 3 "~" H 1950 3300 50  0001 C CNN
 $EndComp
 Connection ~ 1800 3300
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0131
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0131
 U 1 1 611655D5
 P 1800 3600
 F 0 "#PWR0131" H 1800 3350 50  0001 C CNN
@@ -526,7 +529,7 @@ EN
 Text GLabel 6150 3300 2    50   Input ~ 0
 BOOT
 $Comp
-L cat_tracker-rescue:SW_Push-Switch SW2
+L cat_toilet-rescue:SW_Push-Switch-cat_tracker-rescue SW2
 U 1 1 6116806C
 P 2800 3300
 F 0 "SW2" H 2800 3585 50  0000 C CNN
@@ -537,7 +540,7 @@ F 3 "~" H 2800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR0132
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR0132
 U 1 1 61168072
 P 2500 3200
 F 0 "#PWR0132" H 2500 3050 50  0001 C CNN
@@ -552,7 +555,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3300 2600 3300
 $Comp
-L cat_tracker-rescue:C-Device C7
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C7
 U 1 1 6116807A
 P 3000 3450
 F 0 "C7" H 3115 3496 50  0000 L CNN
@@ -563,7 +566,7 @@ F 3 "~" H 3000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R5
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R5
 U 1 1 61168080
 P 3150 3300
 F 0 "R5" V 3050 3250 50  0000 L CNN
@@ -575,7 +578,7 @@ F 3 "~" H 3150 3300 50  0001 C CNN
 $EndComp
 Connection ~ 3000 3300
 $Comp
-L cat_tracker-rescue:Earth-power #PWR0133
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR0133
 U 1 1 61168087
 P 3000 3600
 F 0 "#PWR0133" H 3000 3350 50  0001 C CNN
@@ -599,7 +602,7 @@ F 3 "~" H 8500 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R6
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R6
 U 1 1 6114D548
 P 8150 3800
 F 0 "R6" V 8050 3750 50  0000 L CNN
@@ -610,7 +613,7 @@ F 3 "~" H 8150 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR02
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR02
 U 1 1 61152057
 P 8600 4000
 F 0 "#PWR02" H 8600 3750 50  0001 C CNN
@@ -646,7 +649,7 @@ IR_SENS
 Text GLabel 6150 5300 2    50   Input ~ 0
 IR_EN
 $Comp
-L cat_tracker-rescue:SW_Push-Switch SW3
+L cat_toilet-rescue:SW_Push-Switch-cat_tracker-rescue SW3
 U 1 1 6115D292
 P 8650 5100
 F 0 "SW3" H 8650 5385 50  0000 C CNN
@@ -657,7 +660,7 @@ F 3 "~" H 8650 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:+3.3V-power #PWR01
+L cat_toilet-rescue:+3.3V-power-cat_tracker-rescue #PWR01
 U 1 1 6115D298
 P 8350 5000
 F 0 "#PWR01" H 8350 4850 50  0001 C CNN
@@ -672,7 +675,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5100 8450 5100
 $Comp
-L cat_tracker-rescue:C-Device C8
+L cat_toilet-rescue:C-Device-cat_tracker-rescue C8
 U 1 1 6115D2A0
 P 8850 5250
 F 0 "C8" H 8965 5296 50  0000 L CNN
@@ -683,7 +686,7 @@ F 3 "~" H 8850 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R8
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R8
 U 1 1 6115D2A6
 P 9000 5100
 F 0 "R8" V 8900 5050 50  0000 L CNN
@@ -695,7 +698,7 @@ F 3 "~" H 9000 5100 50  0001 C CNN
 $EndComp
 Connection ~ 8850 5100
 $Comp
-L cat_tracker-rescue:Earth-power #PWR03
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR03
 U 1 1 6115D2AD
 P 8850 5400
 F 0 "#PWR03" H 8850 5150 50  0001 C CNN
@@ -723,7 +726,7 @@ F 3 "~" H 8450 5950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L cat_tracker-rescue:R-Device R7
+L cat_toilet-rescue:R-Device-cat_tracker-rescue R7
 U 1 1 611600BC
 P 8750 5950
 F 0 "R7" V 8650 5900 50  0000 L CNN
@@ -734,7 +737,7 @@ F 3 "~" H 8750 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L cat_tracker-rescue:Earth-power #PWR04
+L cat_toilet-rescue:Earth-power-cat_tracker-rescue #PWR04
 U 1 1 61160B6E
 P 8900 5950
 F 0 "#PWR04" H 8900 5700 50  0001 C CNN
