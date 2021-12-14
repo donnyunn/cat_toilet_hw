@@ -1,0 +1,20 @@
+Designator,Manufacturer Part Number or Seeed SKU,Qty,Link
+"C1, C5 ",302010103,2,
+"C2, C3, C6, C7, C8 ",302010138,5,~
+C9 ,302010139,1,~
+"D1, D3 ",SMLEN3WBC8W1,2,https://cn.mouser.com/ProductDetail/ROHM-Semiconductor/SMLEN3WBC8W1?qs=W0yvOO0ixfGun78rr9Unsw%3D%3D
+Q1 ,"BC846A,215",1,https://cn.mouser.com/ProductDetail/Nexperia/BC846A215?qs=me8TqzrmIYVh1lX%252B0BqjeA%3D%3D
+"Q2, Q3 ","BC856B,215",2,https://cn.mouser.com/ProductDetail/Nexperia/BC856B215?qs=me8TqzrmIYV4nfvivgLtHg%3D%3D
+R1 ,301010293,1,~
+"R2, R9, R10, R11 ",CR0603JA0333G,4,~
+R3 ,301010113,1,~
+R4 ,301011968,1,~
+R5 ,301010293,1,~
+R6 ,301011976,1,~
+"R7, R8 ",301010291,2,~
+SW2 ,B3U-1000P,1,https://cn.mouser.com/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D
+U1 ,MCP100T-315D,1,https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP100T-315I-TT?qs=cQYLKLPzRJnnE4Sa6znIFg%3D%3D
+U2 ,USB4125-GF-A,1,https://cn.mouser.com/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D
+U3 ,MCP73831T-2ACI/OT,1,https://cn.mouser.com/ProductDetail/Microchip/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D
+U4 ,ESP32-WROOM-32E(M113EH3200PH3Q0),1,https://cn.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32EM113EH3200PH3Q0?qs=sGAEpiMZZMu3sxpa5v1qrl%2FYtpu2q02IEu7DHg1FrYI%3D
+U5 ,MCP1802T-3302I/OT,1,https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP1802T-3302I-OT?qs=aE5D7Pt6ky3xGZErL37L5Q%3D%3D

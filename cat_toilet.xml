@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_toilet\cat_toilet.sch</source>
-    <date>2021-08-19 오후 4:02:58</date>
+    <date>2021-12-13 오후 7:01:22</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>Cat Toilet</title>
+        <company>dulab</company>
+        <rev>v0.5</rev>
+        <date>2021-10-27</date>
         <source>cat_toilet.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -22,49 +22,30 @@
     <comp ref="U4">
       <value>ESP32-WROOM-32E</value>
       <footprint>RF_Module:ESP32-WROOM-32</footprint>
-      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf</datasheet>
+      <datasheet>https://cn.mouser.com/ProductDetail/Espressif-Systems/ESP32-WROOM-32EM113EH3200PH3Q0?qs=sGAEpiMZZMu3sxpa5v1qrl%2FYtpu2q02IEu7DHg1FrYI%3D</datasheet>
       <fields>
-        <field name="MPN">ESP32-WROOM-32E</field>
+        <field name="MPN">ESP32-WROOM-32E(M113EH3200PH3Q0)</field>
       </fields>
       <libsource lib="cat_toilet-rescue" part="ESP32-WROOM-32D-RF_Module-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61108DF0</tstamp>
     </comp>
-    <comp ref="U2">
-      <value>USB_CType_6Pin</value>
-      <footprint>ali_Connector:USB_CType_6Pin</footprint>
-      <fields>
-        <field name="MPN">CType Connector</field>
-      </fields>
-      <libsource lib="ali_Connector" part="USB_CType_6Pin" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6110D5DC</tstamp>
-    </comp>
     <comp ref="U3">
       <value>MCP73831</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip/MCP73831T-2ACI-OT?qs=yUQqVecv4qvbBQBGbHx0Mw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="MCP73831-2-OT-Battery_Management-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6110E339</tstamp>
     </comp>
-    <comp ref="D1">
-      <value>SK24/SMB</value>
-      <footprint>Diode_SMD:D_SMB_Handsoldering</footprint>
-      <datasheet>https://www.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/SK24-TP?qs=ekjJs1tcck0x%252BNZEMIWSMw%3D%3D</datasheet>
-      <fields>
-        <field name="MPN">SK24-TP</field>
-      </fields>
-      <libsource lib="cat_toilet-rescue" part="D_Schottky-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>611100B7</tstamp>
-    </comp>
     <comp ref="C1">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>https://www.mouser.com/ProductDetail/AVX/TPCL106K010R4000?qs=sGAEpiMZZMukHu%252BjC5l7YbWrvsR5dLklJIeP7A7npOo%3D</datasheet>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="MPN">TPCL106K010R4000</field>
+        <field name="MPN">302010103</field>
       </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,98 +53,66 @@
     </comp>
     <comp ref="C2">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61112178</tstamp>
     </comp>
-    <comp ref="D2">
-      <value>LED/2012</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="LED-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61114FC1</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>510</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61115A90</tstamp>
-    </comp>
     <comp ref="R3">
       <value>2k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010113</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6111654E</tstamp>
     </comp>
     <comp ref="C5">
       <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010103</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61116BD2</tstamp>
     </comp>
     <comp ref="J1">
-      <value>Conn_01x02</value>
-      <footprint>Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal</footprint>
+      <value>Batt</value>
+      <footprint>tp:boot</footprint>
       <datasheet>~</datasheet>
       <libsource lib="cat_toilet-rescue" part="Conn_01x02-Connector_Generic-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6111965B</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>NCP187</value>
-      <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
-      <datasheet>https://kr.mouser.com/datasheet/2/308/1/NCP187_D-2316661.pdf</datasheet>
-      <fields>
-        <field name="MPN">NCP187AMT330TAG</field>
-      </fields>
-      <libsource lib="add_LDO" part="NCP187" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6111D882</tstamp>
-    </comp>
     <comp ref="C3">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6111DBE3</tstamp>
     </comp>
-    <comp ref="R2">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61120B43</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>61123213</tstamp>
-    </comp>
     <comp ref="SW1">
       <value>EN Btn</value>
-      <footprint>ali_Switch:NW3-A03-05</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
       <libsource lib="cat_toilet-rescue" part="SW_Push-Switch-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6115F88F</tstamp>
     </comp>
     <comp ref="J2">
       <value>ISP</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="cat_toilet-rescue" part="Conn_01x04-Connector_Generic-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -171,110 +120,291 @@
     </comp>
     <comp ref="C6">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6116473C</tstamp>
     </comp>
     <comp ref="R4">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301011968</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61164D5E</tstamp>
     </comp>
-    <comp ref="SW2">
-      <value>EN Btn</value>
-      <footprint>ali_Switch:NW3-A03-05</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="SW_Push-Switch-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6116806C</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6116807A</tstamp>
-    </comp>
     <comp ref="R5">
-      <value>1k</value>
+      <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010293</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61168080</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>S8050</value>
+      <value>npn</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>~</datasheet>
+      <datasheet>https://cn.mouser.com/ProductDetail/Nexperia/BC846A215?qs=me8TqzrmIYVh1lX%252B0BqjeA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">BC846A,215</field>
+      </fields>
       <libsource lib="Device" part="Q_NPN_BEC" description="NPN transistor, base/emitter/collector"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6114B2B0</tstamp>
     </comp>
     <comp ref="R6">
       <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301011976</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6114D548</tstamp>
     </comp>
     <comp ref="J3">
       <value>GP2Y0A41SK0F</value>
-      <footprint>Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal</footprint>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>61153F36</tstamp>
     </comp>
-    <comp ref="SW3">
-      <value>Pairing Btn</value>
-      <footprint>ali_Switch:NW3-A03-05</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="cat_toilet-rescue" part="SW_Push-Switch-cat_tracker-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6115D292</tstamp>
-    </comp>
     <comp ref="C8">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6115D2A0</tstamp>
     </comp>
     <comp ref="R8">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010291</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6115D2A6</tstamp>
     </comp>
     <comp ref="D3">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>~</datasheet>
+      <value>LED/1608</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/ROHM-Semiconductor/SMLEN3WBC8W1?qs=W0yvOO0ixfGun78rr9Unsw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">SMLEN3WBC8W1</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6115FD9F</tstamp>
     </comp>
     <comp ref="R7">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010291</field>
+      </fields>
       <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>611600BC</tstamp>
     </comp>
+    <comp ref="U2">
+      <value>USB_CType_2Pin</value>
+      <footprint>ali_Connector:USB_CType_2Pin</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/GCT/USB4125-GF-A?qs=KUoIvG%2F9IlaIQ4zBJ6gLeA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">USB4125-GF-A</field>
+      </fields>
+      <libsource lib="ali_Connector" part="USB_CType_2Pin" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618D3A29</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MCP1802T-3302I/OT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP1802T-3302I-OT?qs=aE5D7Pt6ky3xGZErL37L5Q%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP1802T-3302I/OT</field>
+      </fields>
+      <libsource lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618D7CA4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP100-315D</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Microchip-Technology/MCP100T-315I-TT?qs=cQYLKLPzRJnnE4Sa6znIFg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">MCP100T-315D</field>
+      </fields>
+      <libsource lib="Power_Supervisor" part="MCP100-315D" description="Microcontroller reset monitor, 3.15V threshold, active low output"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618DA894</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010138</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E1440</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Pairing Btn</value>
+      <footprint>Button_Switch_SMD:SW_SPST_B3U-1000P</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Omron-Electronics/B3U-1000P?qs=AO7BQMcsEu4ip80xyf2FwA%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">B3U-1000P</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="SW_Push-Switch-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E354A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">302010139</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E5818</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">301010293</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618E7A60</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint_2Pole</value>
+      <footprint>tp:boot</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_2Pole" description="2-polar test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618EB7E5</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC856B,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Nexperia/BC856B215?qs=me8TqzrmIYV4nfvivgLtHg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">BC856B,215</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61900736</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC856B,215</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/Nexperia/BC856B215?qs=me8TqzrmIYV4nfvivgLtHg%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">BC856B,215</field>
+      </fields>
+      <libsource lib="Device" part="Q_PNP_BEC" description="PNP transistor, base/emitter/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61903471</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6190720A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61907AEF</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED/1608</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://cn.mouser.com/ProductDetail/ROHM-Semiconductor/SMLEN3WBC8W1?qs=W0yvOO0ixfGun78rr9Unsw%3D%3D</datasheet>
+      <fields>
+        <field name="MPN">SMLEN3WBC8W1</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61936AFD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ADD01C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="MPN">CR0603JA0333G</field>
+      </fields>
+      <libsource lib="cat_toilet-rescue" part="R-Device-cat_tracker-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ADD75F</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="TestPoint_2Pole">
+      <description>2-polar test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2Pole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x03">
       <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -321,32 +451,71 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="add_LDO" part="NCP187">
+    <libpart lib="Device" part="Q_PNP_BEC">
+      <description>PNP transistor, base/emitter/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MIC531833YD5TR" part="MIC5318-3.3YD5-TR">
+      <footprints>
+        <fp>TSOT-23-5_D5_MCH</fp>
+        <fp>TSOT-23-5_D5_MCH-M</fp>
+        <fp>TSOT-23-5_D5_MCH-L</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">NCP187</field>
+        <field name="Value">MIC5318-3.3YD5-TR</field>
+        <field name="Footprint">TSOT-23-5_D5_MCH</field>
       </fields>
       <pins>
         <pin num="1" name="IN" type="input"/>
-        <pin num="2" name="EN" type="input"/>
-        <pin num="3" name="GND" type="input"/>
-        <pin num="4" name="PG" type="input"/>
-        <pin num="5" name="SNS" type="input"/>
-        <pin num="6" name="OUT" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="BYP" type="output"/>
+        <pin num="5" name="OUT" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="ali_Connector" part="USB_CType_6Pin">
+    <libpart lib="Power_Supervisor" part="MCP100-270D">
+      <aliases>
+        <alias>MCP100-300D</alias>
+        <alias>MCP100-315D</alias>
+        <alias>MCP100-450D</alias>
+        <alias>MCP100-460D</alias>
+        <alias>MCP100-475D</alias>
+        <alias>MCP100-485D</alias>
+      </aliases>
+      <description>Microcontroller reset monitor, 2.70V threshold, active low output</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+        <fp>TO?92*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">USB_CType_6Pin</field>
+        <field name="Value">MCP100-270D</field>
       </fields>
       <pins>
-        <pin num="A5" name="CC1" type="input"/>
-        <pin num="A9" name="VBUS" type="input"/>
-        <pin num="A12" name="GND" type="input"/>
-        <pin num="B5" name="CC2" type="input"/>
-        <pin num="B9" name="VBUS" type="input"/>
-        <pin num="B12" name="GND" type="input"/>
+        <pin num="1" name="~RST" type="output"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ali_Connector" part="USB_CType_2Pin">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB_CType_2Pin</field>
+      </fields>
+      <pins>
+        <pin num="9" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
       </pins>
     </libpart>
     <libpart lib="cat_toilet-rescue" part="C-Device-cat_tracker-rescue">
@@ -388,22 +557,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="cat_toilet-rescue" part="D_Schottky-Device-cat_tracker-rescue">
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky-Device-cat_tracker-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="cat_toilet-rescue" part="ESP32-WROOM-32D-RF_Module-cat_tracker-rescue">
@@ -457,21 +610,6 @@
         <pin num="39" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="cat_toilet-rescue" part="LED-Device-cat_tracker-rescue">
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED-Device-cat_tracker-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="cat_toilet-rescue" part="MCP73831-2-OT-Battery_Management-cat_tracker-rescue">
       <footprints>
         <fp>SOT?23*</fp>
@@ -514,14 +652,20 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
     <library logical="Connector_Generic">
       <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
     </library>
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
-    <library logical="add_LDO">
-      <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_toilet/lib/add_LDO/add_LDO.lib</uri>
+    <library logical="MIC531833YD5TR">
+      <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_toilet/lib/MIC531833YD5TR/MIC531833YD5TR.lib</uri>
+    </library>
+    <library logical="Power_Supervisor">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Supervisor.lib</uri>
     </library>
     <library logical="ali_Connector">
       <uri>C:\Users\donny\work\dulab\cat_toilet\hwspace\cat_toilet/lib/ali_Connector/ali_Connector.lib</uri>
@@ -532,218 +676,224 @@
   </libraries>
   <nets>
     <net code="1" name="Earth">
-      <node ref="U3" pin="2"/>
-      <node ref="U2" pin="B12"/>
-      <node ref="U2" pin="A12"/>
-      <node ref="U4" pin="39"/>
-      <node ref="U4" pin="38"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="R3" pin="2"/>
       <node ref="C5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R3" pin="2"/>
       <node ref="U4" pin="15"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="2"/>
+      <node ref="U4" pin="38"/>
+      <node ref="U4" pin="39"/>
       <node ref="C6" pin="2"/>
-    </net>
-    <net code="2" name="Net-(U4-Pad24)">
-      <node ref="U4" pin="24"/>
-    </net>
-    <net code="3" name="Net-(U4-Pad14)">
-      <node ref="U4" pin="14"/>
-    </net>
-    <net code="4" name="Net-(U4-Pad23)">
-      <node ref="U4" pin="23"/>
-    </net>
-    <net code="5" name="Net-(U4-Pad26)">
-      <node ref="U4" pin="26"/>
-    </net>
-    <net code="6" name="Net-(C6-Pad1)">
-      <node ref="SW1" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="7" name="+3V3">
-      <node ref="U4" pin="2"/>
-      <node ref="J2" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="6"/>
+      <node ref="J2" pin="2"/>
       <node ref="SW1" pin="1"/>
-      <node ref="C4" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="2" name="BATT">
+      <node ref="J1" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad1)">
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="5" name="+3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C7" pin="1"/>
       <node ref="SW2" pin="1"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="R2" pin="1"/>
     </net>
-    <net code="8" name="RX">
-      <node ref="U4" pin="34"/>
-      <node ref="J2" pin="3"/>
+    <net code="6" name="Net-(C8-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW2" pin="2"/>
     </net>
-    <net code="9" name="TX">
-      <node ref="U4" pin="35"/>
-      <node ref="J2" pin="4"/>
+    <net code="7" name="Net-(J3-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="J3" pin="2"/>
     </net>
-    <net code="10" name="Net-(R2-Pad2)">
-      <node ref="U1" pin="4"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="11" name="BTN">
+    <net code="8" name="BTN">
       <node ref="U4" pin="12"/>
       <node ref="R8" pin="1"/>
     </net>
-    <net code="12" name="Net-(J3-Pad2)">
-      <node ref="J3" pin="2"/>
-      <node ref="Q1" pin="3"/>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="13" name="Net-(C8-Pad1)">
-      <node ref="R8" pin="2"/>
-      <node ref="SW3" pin="2"/>
-      <node ref="C8" pin="1"/>
-    </net>
-    <net code="14" name="Net-(D3-Pad1)">
+    <net code="10" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
       <node ref="R7" pin="2"/>
       <node ref="D3" pin="1"/>
     </net>
-    <net code="15" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
-      <node ref="SW2" pin="2"/>
-      <node ref="R5" pin="2"/>
+    <net code="11" name="Net-(Q3-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="12" name="LED">
+      <node ref="U4" pin="11"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q2-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="15" name="EN">
+      <node ref="R4" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C9" pin="1"/>
     </net>
     <net code="16" name="Net-(Q1-Pad1)">
       <node ref="R6" pin="1"/>
       <node ref="Q1" pin="1"/>
     </net>
-    <net code="17" name="IR_EN">
+    <net code="17" name="VBUS">
+      <node ref="U2" pin="9"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="18" name="CHRG">
+      <node ref="U3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="20" name="IR_EN">
       <node ref="U4" pin="8"/>
       <node ref="R6" pin="2"/>
     </net>
-    <net code="18" name="IR_SENS">
+    <net code="21" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="22" name="IR_SENS">
       <node ref="J3" pin="1"/>
       <node ref="U4" pin="6"/>
     </net>
-    <net code="19" name="BATT">
-      <node ref="J3" pin="3"/>
-      <node ref="U1" pin="1"/>
-      <node ref="J1" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U3" pin="3"/>
-    </net>
-    <net code="20" name="Net-(U4-Pad37)">
-      <node ref="U4" pin="37"/>
-    </net>
-    <net code="21" name="Net-(U4-Pad4)">
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="22" name="Net-(U4-Pad5)">
+    <net code="23" name="Net-(U4-Pad5)">
       <node ref="U4" pin="5"/>
     </net>
-    <net code="23" name="Net-(U4-Pad7)">
-      <node ref="U4" pin="7"/>
+    <net code="24" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
     </net>
-    <net code="24" name="Net-(U4-Pad9)">
-      <node ref="U4" pin="9"/>
-    </net>
-    <net code="25" name="Net-(U2-PadA5)">
-      <node ref="U2" pin="A5"/>
-    </net>
-    <net code="26" name="VBUS">
-      <node ref="U2" pin="B9"/>
-      <node ref="U2" pin="A9"/>
-      <node ref="D1" pin="2"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="27" name="Net-(U2-PadB5)">
-      <node ref="U2" pin="B5"/>
-    </net>
-    <net code="28" name="Net-(U4-Pad36)">
-      <node ref="U4" pin="36"/>
-    </net>
-    <net code="29" name="Net-(R3-Pad1)">
+    <net code="25" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="U3" pin="5"/>
     </net>
-    <net code="30" name="Net-(U4-Pad10)">
-      <node ref="U4" pin="10"/>
-    </net>
-    <net code="31" name="LED">
-      <node ref="D3" pin="2"/>
-      <node ref="U4" pin="11"/>
-    </net>
-    <net code="32" name="Net-(U4-Pad13)">
-      <node ref="U4" pin="13"/>
-    </net>
-    <net code="33" name="Net-(U4-Pad16)">
-      <node ref="U4" pin="16"/>
-    </net>
-    <net code="34" name="Net-(U4-Pad17)">
+    <net code="26" name="Net-(U4-Pad17)">
       <node ref="U4" pin="17"/>
     </net>
-    <net code="35" name="Net-(U4-Pad18)">
-      <node ref="U4" pin="18"/>
+    <net code="27" name="Net-(U4-Pad24)">
+      <node ref="U4" pin="24"/>
     </net>
-    <net code="36" name="Net-(U4-Pad19)">
-      <node ref="U4" pin="19"/>
+    <net code="28" name="Net-(U4-Pad23)">
+      <node ref="U4" pin="23"/>
     </net>
-    <net code="37" name="Net-(U4-Pad20)">
-      <node ref="U4" pin="20"/>
-    </net>
-    <net code="38" name="Net-(U4-Pad21)">
-      <node ref="U4" pin="21"/>
-    </net>
-    <net code="39" name="Net-(U4-Pad22)">
+    <net code="29" name="Net-(U4-Pad22)">
       <node ref="U4" pin="22"/>
     </net>
-    <net code="40" name="BOOT">
-      <node ref="U4" pin="25"/>
-      <node ref="R5" pin="1"/>
+    <net code="30" name="Net-(U4-Pad21)">
+      <node ref="U4" pin="21"/>
     </net>
-    <net code="41" name="Net-(U4-Pad27)">
+    <net code="31" name="Net-(U4-Pad20)">
+      <node ref="U4" pin="20"/>
+    </net>
+    <net code="32" name="Net-(U4-Pad19)">
+      <node ref="U4" pin="19"/>
+    </net>
+    <net code="33" name="Net-(U4-Pad18)">
+      <node ref="U4" pin="18"/>
+    </net>
+    <net code="34" name="BOOT">
+      <node ref="R5" pin="1"/>
+      <node ref="U4" pin="25"/>
+      <node ref="TP1" pin="2"/>
+    </net>
+    <net code="35" name="Net-(U4-Pad16)">
+      <node ref="U4" pin="16"/>
+    </net>
+    <net code="36" name="Net-(U4-Pad14)">
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="37" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="38" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="39" name="Net-(U4-Pad26)">
+      <node ref="U4" pin="26"/>
+    </net>
+    <net code="40" name="Net-(U4-Pad27)">
       <node ref="U4" pin="27"/>
     </net>
-    <net code="42" name="Net-(U4-Pad28)">
+    <net code="41" name="Net-(U4-Pad28)">
       <node ref="U4" pin="28"/>
     </net>
-    <net code="43" name="Net-(U4-Pad29)">
+    <net code="42" name="Net-(U4-Pad29)">
       <node ref="U4" pin="29"/>
     </net>
-    <net code="44" name="EN">
-      <node ref="R4" pin="1"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="45" name="Net-(U4-Pad30)">
+    <net code="43" name="Net-(U4-Pad30)">
       <node ref="U4" pin="30"/>
     </net>
-    <net code="46" name="Net-(U4-Pad31)">
+    <net code="44" name="Net-(U4-Pad31)">
       <node ref="U4" pin="31"/>
     </net>
-    <net code="47" name="Net-(U4-Pad32)">
+    <net code="45" name="Net-(U4-Pad32)">
       <node ref="U4" pin="32"/>
     </net>
-    <net code="48" name="Net-(U4-Pad33)">
+    <net code="46" name="Net-(U4-Pad33)">
       <node ref="U4" pin="33"/>
     </net>
-    <net code="49" name="Net-(D2-Pad1)">
-      <node ref="R1" pin="1"/>
-      <node ref="D2" pin="1"/>
+    <net code="47" name="RX">
+      <node ref="U4" pin="34"/>
+      <node ref="J2" pin="3"/>
     </net>
-    <net code="50" name="Net-(R1-Pad2)">
-      <node ref="R1" pin="2"/>
-      <node ref="U3" pin="1"/>
+    <net code="48" name="TX">
+      <node ref="U4" pin="35"/>
+      <node ref="J2" pin="4"/>
     </net>
-    <net code="51" name="Net-(D1-Pad1)">
-      <node ref="U3" pin="4"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D2" pin="2"/>
+    <net code="49" name="Net-(U4-Pad36)">
+      <node ref="U4" pin="36"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad37)">
+      <node ref="U4" pin="37"/>
     </net>
   </nets>
 </export>

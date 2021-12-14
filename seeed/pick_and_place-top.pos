@@ -1,0 +1,15 @@
+### Module positions - created on 12/13/21 18:58:46 ###
+### Printed by Pcbnew version kicad (5.1.10)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                           PosX       PosY       Rot  Side
+C3        100n               C_0603_1608Metric                              11.0000   -35.5000  270.0000  top
+C7        100n               C_0603_1608Metric                              17.0000   -35.5000  270.0000  top
+D1        LED/1608           LED_0603_1608Metric                             7.5000    -1.5000  180.0000  top
+D3        LED/1608           LED_0603_1608Metric                            15.5000    -1.5000    0.0000  top
+R5        10k                R_0603_1608Metric_Pad0.98x0.95mm_HandSolder    20.0000   -35.5000  270.0000  top
+R10       33k                R_0603_1608Metric                              14.0000   -39.5000    0.0000  top
+R11       33k                R_0603_1608Metric                              17.5000   -39.5000    0.0000  top
+U4        ESP32-WROOM-32E    ESP32-WROOM-32                                 11.5000   -21.7500    0.0000  top
+U5        MCP1802T-3302I/OT  SOT-23-5                                       14.0000   -35.5000    0.0000  top
+## End
